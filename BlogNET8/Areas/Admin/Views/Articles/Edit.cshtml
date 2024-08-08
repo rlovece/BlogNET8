@@ -1,0 +1,88 @@
+﻿@model BlogNET8.Models.ViewModels.ArticleVM
+
+@{
+	ViewData["Title"] = "Editar Artículo";
+
+}
+
+<form method="POST" asp-action="Edit" enctype="multipart/form-data" style="width: 100%">
+
+	<input type="hidden" asp-for="Article.Id"/>
+
+	<div asp-validation-summary="All" class="text-danger"> </div>
+	<div class="row"> 
+		<div class="col-8 mt-4">
+			<div class="form-group row">
+				<div class="col-3">
+					<label asp-for="Article.Title"></label>
+				</div>
+				<div class="col-9">
+					<input asp-for="Article.Title" class="form-control" placeholder="Ingrese el título del artículo" />
+					<span asp-validation-for="Article.Title" class="text-danger"></span>
+				</div>
+			</div>
+
+			<br />
+			<div class="form-group row">
+				<div class="col-3">
+					<label asp-for="Article.Description"></label>
+				</div>
+				<div class="col-9">
+					<textarea asp-for="Article.Description" class="form-control"></textarea>
+					<span asp-validation-for="Article.Description" class="text-danger"></span>
+				</div>
+			</div>
+
+			<br />
+			<div class="form-group row">
+				<div class="col-3">
+					<label for="Category">Categoría</label>
+				</div>
+				<div class="col-9">
+					@Html.DropDownListFor(i => i.Article.CategoryId, Model.CategoriesList, "-Seleccione una categoría-", new { @class = "form-control" })
+					<span asp-validation-for="Article.CategoryId" class="text-danger"></span>
+				</div>
+			</div>
+			<br />
+
+			<div class="form-group row">
+				<div class="col-3">
+					<label asp-for="Article.UrlImagen"></label>
+				</div>
+				<div class="col-9">
+					<input type="file" name="file" id="fileUpload" scription" class="text-danger"></span>
+					<span asp-validation-for="Article.UrlImagen" class="text-danger"></span>
+				</div>
+			</div>
+
+			<br />
+			<div class="form-group row">
+				<div class="col-8">
+					<partial name="_VistaCreateVolver" />
+				</div>
+			</div>
+		</div>
+
+		<div class="col-4">
+			<br /><br /><br />
+			<img src="@Model.Article.UrlImagen" width="80%" style="border-radius: 5px" />
+		</div>
+	</div>
+	
+</form>
+
+@*Validación del lado del Cliente. Se muestra el error antes de guardar, es decir, antes de que llegue al servidor. Luego es una doble capa de protección.*@
+section Scripts {
+@{
+	<partial name="_ValidationScriptsPartial" />
+}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/7.3.0/tinymce.min.js" integrity="sha512-RUZ2d69UiTI+LdjfDCxqJh5HfjmOcouct56utQNVRjr90Ea8uHQa+gCxvxDTC9fFvIGP+t4TDDJWNTRV48tBpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+	tinymce.init({
+		selector: 'textarea',
+		plugin: 'list',
+		menubar: 'file edit format'
+	});
+</script>
+}
