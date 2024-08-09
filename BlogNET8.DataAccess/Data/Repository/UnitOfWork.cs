@@ -14,6 +14,7 @@ namespace BlogNET8.DataAccess.Data.Repository
         private readonly ApplicationDbContext _dbcontext;
         private ICategoryRepository _categoryRepository;
 		private IArticleRepository _articleRepository;
+		private ISliderRepository _sliderRepository;
 
 		public UnitOfWork(ApplicationDbContext dbcontext)
         {
@@ -43,6 +44,19 @@ namespace BlogNET8.DataAccess.Data.Repository
 				_articleRepository = value;
 			}
 		}
+
+		public ISliderRepository SliderRepository
+		{
+			get
+			{
+				return _sliderRepository ??= new SliderRepository(_dbcontext);
+			}
+			set
+			{
+				_sliderRepository = value;
+			}
+		}
+
 
 		//Método para liberar recursos.
 		public void Dispose()

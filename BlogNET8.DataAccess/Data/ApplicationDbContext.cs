@@ -14,6 +14,7 @@ namespace BlogNET8.Data
         // Acá deben ir todos los modelos
         public DbSet<Category> Category {  get; set; }
 		public DbSet<Article> Article { get; set; }
+		public DbSet<Slider> Slider { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{

@@ -6,36 +6,42 @@ $(document).ready(function () {
 
 
 function cargarDatatable() {
-    dataTable = $("#tblArticles").DataTable({
+    dataTable = $("#tblSliders").DataTable({
         "ajax": {
             // En la URL area/controlador/método
-            "url": "/Admin/Articles/GetAll",
+            "url": "/Admin/Sliders/GetAll",
             "type": "GET",
             "datatype": "json"
         },
         "columns": [
             { "data": "id", "width": "5%" },
-            { "data": "title", "width": "20%" },
-            { "data": "createdDate", "width": "15%" },
+            { "data": "name", "width": "25%" },
+            {
+                "data": "status",
+                "render": function (estatus) {
+                        return `
+                            <p>
+                              ${estatus ? 'Visible' : 'Oculto'}
+                            </p>`},    
+                "width": "15%"
+            },
             {
                 "data": "urlImagen",
                 "render": function (img) {
                    return `<img src="../${img}" width="120px">`
                 },
-                "width": "10%"
+                "width": "30%"
             },
-            { "data": "updatedDate", "width": "15%" },
-            { "data": "category.name", "width": "10%" },
             {
                 "data": "id",
                 "render": function (data) {
                     /*en el Onclic --> El primer Delete es el método acá mismo en el .js y el 2do es el método en el controlador*/
                     return `<div class="text-center">
-                                <a href="/Admin/Articles/Edit/${data}" class="btn btn-success text-white" style="cursor:pointer; width:140px;">
+                                <a href="/Admin/Sliders/Edit/${data}" class="btn btn-success text-white" style="cursor:pointer; width:140px;">
                                 <i class="far fa-edit"></i> Editar
                                 </a>
                                 &nbsp;
-                                <a onclick=Delete("/Admin/Articles/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer; width:140px;">
+                                <a onclick=Delete("/Admin/Sliders/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer; width:140px;">
                                 <i class="far fa-trash-alt"></i> Borrar
                                 </a>
                           </div>
