@@ -1,0 +1,40 @@
+﻿@model BlogNET8.Models.Article
+
+@{
+	ViewData["Title"] = "Detalle Artículo";
+
+}
+
+<br />
+<div class="conteiner">
+	<div class="card">
+		<div class="card-header">
+			<div class="col-12">
+				<h1 class="text-center">@Model.Title</h1>
+			</div>
+			<div class="row">
+				<div class="col-10">
+					<p>Última modificación: @Model.UpdatedDate.ToString("dd/MM/yyyy")</p>
+				</div>
+				<div class="col-2">
+					<p class="bg-success-subtle text-center p-1">Acá categoria</p>
+				</div>
+			</div>
+		</div>
+		<div class="card-body">
+			<div class="d-flex justify-content-center">
+				<img class="img-fluid" src="@Model.UrlImagen" alt="@Model.Title" />
+			</div>
+			<div class="col-10 offset-1">
+				<p>@Html.Raw(Model.Description)</p>
+			</div>
+		</div>
+		<div class="card-header">
+			<div class="d-flex justify-content-center">
+				<a asp-action="Index" class="btn btn-secondary">Volver</a>
+			</div>
+			
+		</div>
+	</div>
+
+</div>

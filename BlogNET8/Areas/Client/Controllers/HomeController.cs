@@ -1,4 +1,6 @@
+using BlogNET8.DataAccess.Data.Repository.IRepository;
 using BlogNET8.Models;
+using BlogNET8.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -7,16 +9,32 @@ namespace BlogNET8.Areas.Client.Controllers
     [Area("Client")]
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+		private readonly IUnitOfWork _unitOfWork;
 
-        public HomeController(ILogger<HomeController> logger)
+
+		public HomeController(IUnitOfWork unitOfWork)
+		{
+			_unitOfWork = unitOfWork;
+		}
+
+		public IActionResult Index()
         {
-            _logger = logger;
+            HomeVM homeVM = new HomeVM
+            {
+                Sliders = _unitOfWork.SliderRepository.GetAll(),
+                Articles = _unitOfWork.ArticleRepository.GetAll()
+            };
+
+            ViewBag.IsHome = true;
+
+            return View(homeVM);
         }
 
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Detail(int id)
         {
-            return View();
+            var articleDB = _unitOfWork.ArticleRepository.Get(id);
+            return View(articleDB);
         }
 
         public IActionResult Privacy()

@@ -1,0 +1,30 @@
+﻿@model BlogNET8.Models.ViewModels.HomeVM
+
+<div id="carouselSliders" class="carousel slide">
+    <div class="carousel-inner">
+        @{
+            int cont = 0;
+        }
+
+        @foreach (var slider in Model.Sliders)
+        {
+            var itemDinamic = cont++ == 0 ? "active" : "";
+
+            if (slider.Status == true)
+            {
+                <div class="carousel-item @itemDinamic">
+                    <img class="d-block w-100" style="height: 200px" src="@Url.Content(slider.UrlImagen)" alt="First slide">
+                    <h2 class="text-center py-1">@Html.Raw(slider.Name)</h2>
+                </div>
+            }
+        }
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSliders" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselSliders" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>

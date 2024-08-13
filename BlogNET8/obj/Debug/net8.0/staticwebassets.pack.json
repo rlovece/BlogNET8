@@ -1,0 +1,321 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlogNET8.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlogNET8.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\37379a9d-cef1-46ea-8c73-5b7f4534854b.webp",
+      "PackagePath": "staticwebassets\\img\\articles\\37379a9d-cef1-46ea-8c73-5b7f4534854b.webp"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\3d046e4d-3ba5-47bf-9f64-4172201f5bff.jpg",
+      "PackagePath": "staticwebassets\\img\\articles\\3d046e4d-3ba5-47bf-9f64-4172201f5bff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\6fbcb3b6-b3a6-48fc-896d-be6ed8b0b3ac.webp",
+      "PackagePath": "staticwebassets\\img\\articles\\6fbcb3b6-b3a6-48fc-896d-be6ed8b0b3ac.webp"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\8ecbb441-4701-4631-a0d2-71635c476ca5.webp",
+      "PackagePath": "staticwebassets\\img\\articles\\8ecbb441-4701-4631-a0d2-71635c476ca5.webp"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\efd5e1c8-607e-464d-bf02-efdfa4562388.jpg",
+      "PackagePath": "staticwebassets\\img\\articles\\efd5e1c8-607e-464d-bf02-efdfa4562388.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\fd3260d4-d382-4004-9698-e1b8b1d92979.webp",
+      "PackagePath": "staticwebassets\\img\\articles\\fd3260d4-d382-4004-9698-e1b8b1d92979.webp"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\sliders\\79590a24-5809-4582-adeb-b819a83edb15.webp",
+      "PackagePath": "staticwebassets\\img\\sliders\\79590a24-5809-4582-adeb-b819a83edb15.webp"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\sliders\\c6497f85-2e86-4908-9ae8-e93e947eb1e5.jpg",
+      "PackagePath": "staticwebassets\\img\\sliders\\c6497f85-2e86-4908-9ae8-e93e947eb1e5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\sliders\\d9ae0726-1822-4584-b3a8-3f9eb4274650.jpg",
+      "PackagePath": "staticwebassets\\img\\sliders\\d9ae0726-1822-4584-b3a8-3f9eb4274650.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\sliders\\fc0d8f0f-aff1-4ffa-82f3-63d8eb62fd40.jpg",
+      "PackagePath": "staticwebassets\\img\\sliders\\fc0d8f0f-aff1-4ffa-82f3-63d8eb62fd40.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\js\\articles.js",
+      "PackagePath": "staticwebassets\\js\\articles.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\js\\categories.js",
+      "PackagePath": "staticwebassets\\js\\categories.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\js\\sliders.js",
+      "PackagePath": "staticwebassets\\js\\sliders.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlogNET8.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlogNET8.props",
+      "PackagePath": "build\\BlogNET8.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlogNET8.props",
+      "PackagePath": "buildMultiTargeting\\BlogNET8.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlogNET8.props",
+      "PackagePath": "buildTransitive\\BlogNET8.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
