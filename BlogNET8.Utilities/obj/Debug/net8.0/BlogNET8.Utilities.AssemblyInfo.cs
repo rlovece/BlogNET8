@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlogNET8.Utilities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1e233df47932b3d95147f289561e1deb7affe4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87f13a19610d2e0e06adfb8de20b57595b2cdc61")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlogNET8.Utilities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlogNET8.Utilities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

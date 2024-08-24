@@ -1,6 +1,7 @@
 ﻿using BlogNET8.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
 
 namespace BlogNET8.Data
 {
@@ -15,6 +16,7 @@ namespace BlogNET8.Data
         public DbSet<Category> Category {  get; set; }
 		public DbSet<Article> Article { get; set; }
 		public DbSet<Slider> Slider { get; set; }
+		public DbSet<ApplicationUser> ApplicationUser { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{

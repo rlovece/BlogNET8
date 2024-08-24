@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7AFFDB6-5D6A-4E4D-9707-85F0FE422C28}|BlogNET8\\BlogNET8.csproj|c:\\users\\ruthl\\source\\repos\\blognet8\\blognet8\\areas\\client\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7AFFDB6-5D6A-4E4D-9707-85F0FE422C28}|BlogNET8\\BlogNET8.csproj|solutionrelative:blognet8\\areas\\client\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7AFFDB6-5D6A-4E4D-9707-85F0FE422C28}|BlogNET8\\BlogNET8.csproj|c:\\users\\ruthl\\source\\repos\\blognet8\\blognet8\\areas\\client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7AFFDB6-5D6A-4E4D-9707-85F0FE422C28}|BlogNET8\\BlogNET8.csproj|solutionrelative:blognet8\\areas\\client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7AFFDB6-5D6A-4E4D-9707-85F0FE422C28}|BlogNET8\\BlogNET8.csproj|c:\\users\\ruthl\\source\\repos\\blognet8\\blognet8\\areas\\client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7AFFDB6-5D6A-4E4D-9707-85F0FE422C28}|BlogNET8\\BlogNET8.csproj|solutionrelative:blognet8\\areas\\client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C7AFFDB6-5D6A-4E4D-9707-85F0FE422C28}|BlogNET8\\BlogNET8.csproj|c:\\users\\ruthl\\source\\repos\\blognet8\\blognet8\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7AFFDB6-5D6A-4E4D-9707-85F0FE422C28}|BlogNET8\\BlogNET8.csproj|solutionrelative:blognet8\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\Areas\\Client\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BlogNET8\\Areas\\Client\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\Areas\\Client\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BlogNET8\\Areas\\Client\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T20:35:36.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\Areas\\Client\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BlogNET8\\Areas\\Client\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\Areas\\Client\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BlogNET8\\Areas\\Client\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T20:35:31.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\Areas\\Client\\Views\\Home\\Detail.cshtml",
-              "RelativeDocumentMoniker": "BlogNET8\\Areas\\Client\\Views\\Home\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\Areas\\Client\\Views\\Home\\Detail.cshtml",
-              "RelativeToolTip": "BlogNET8\\Areas\\Client\\Views\\Home\\Detail.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAwAAAA",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BlogNET8\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "BlogNET8\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAD8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T20:09:20.924Z",
+              "WhenOpened": "2024-08-23T19:56:23.617Z",
               "EditorCaption": ""
             }
           ]
