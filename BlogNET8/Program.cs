@@ -13,8 +13,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 	options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
-	.AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
+	.AddEntityFrameworkStores<ApplicationDbContext>()
+	.AddDefaultUI();
+
 builder.Services.AddControllersWithViews();
 
 //Se registra la Unidad de trabajo en el contenedor de dependencia

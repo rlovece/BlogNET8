@@ -9,6 +9,7 @@ namespace BlogNET8.Utilities
     public class CNT
     {
         public const string Admin = "Admin";
-        public const string User = "User";
+        public const string Autor = "Autor";
+        public const string Subscriber = "Subscriber";
     }
 }

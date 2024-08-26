@@ -11,8 +11,8 @@ namespace BlogNET8.DataAccess.Data.Repository.IRepository
         //Acá se agregan los distintos repositorios.
         ICategoryRepository CategoryRepository { get; }
 		IArticleRepository ArticleRepository { get; }
-
 		ISliderRepository SliderRepository { get; }
+        IUserRepository UserRepository { get; }
 
 		void Save();
     }

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlogNET8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87f13a19610d2e0e06adfb8de20b57595b2cdc61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebe161501c13f9edaa10219c1d1a49d4643b889c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlogNET8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlogNET8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -15,10 +15,15 @@ namespace BlogNET8.DataAccess.Data.Repository
         private ICategoryRepository _categoryRepository;
 		private IArticleRepository _articleRepository;
 		private ISliderRepository _sliderRepository;
+        private IUserRepository _userRepository;
 
-		public UnitOfWork(ApplicationDbContext dbcontext)
+        public UnitOfWork(ApplicationDbContext dbcontext)
         {
             _dbcontext = dbcontext ?? throw new ArgumentNullException(nameof(dbcontext));
+			_categoryRepository = new CategoryRepository(_dbcontext);
+			_articleRepository = new ArticleRepository(_dbcontext);
+			_sliderRepository = new SliderRepository(_dbcontext);
+			_userRepository = new UserRepository(_dbcontext);	
 		}
 
         //Se agregarán los distintos repos.
@@ -57,9 +62,21 @@ namespace BlogNET8.DataAccess.Data.Repository
 			}
 		}
 
+        public IUserRepository UserRepository
+        {
+            get
+            {
+                return _userRepository ??= new UserRepository(_dbcontext);
+            }
+            set
+            {
+                _userRepository = value;
+            }
+        }
 
-		//Método para liberar recursos.
-		public void Dispose()
+
+        //Método para liberar recursos.
+        public void Dispose()
         {
             _dbcontext.Dispose();
         }
