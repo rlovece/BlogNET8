@@ -21,7 +21,12 @@ namespace BlogNET8.DataAccess.Data.Repository
             _dbContext = context;
         }
 
-        public void update(Article article)
+		public IQueryable<Article> AsQueryable()
+		{
+			return _dbContext.Article.AsQueryable();
+		}
+
+		public void update(Article article)
         {
             var objUpdate = _dbContext.Article.FirstOrDefault(c => c.Id == article.Id);
             if (objUpdate != null)

@@ -13,7 +13,8 @@ namespace BlogNET8.DataAccess.Data.Repository.IRepository
 		IArticleRepository ArticleRepository { get; }
 		ISliderRepository SliderRepository { get; }
         IUserRepository UserRepository { get; }
+        IMsjContactRepository MsjContactRepository { get; }
 
-		void Save();
+        void Save();
     }
 }

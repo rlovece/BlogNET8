@@ -16,6 +16,7 @@ namespace BlogNET8.DataAccess.Data.Repository
 		private IArticleRepository _articleRepository;
 		private ISliderRepository _sliderRepository;
         private IUserRepository _userRepository;
+        private IMsjContactRepository _msjContactRepository;
 
         public UnitOfWork(ApplicationDbContext dbcontext)
         {
@@ -23,7 +24,8 @@ namespace BlogNET8.DataAccess.Data.Repository
 			_categoryRepository = new CategoryRepository(_dbcontext);
 			_articleRepository = new ArticleRepository(_dbcontext);
 			_sliderRepository = new SliderRepository(_dbcontext);
-			_userRepository = new UserRepository(_dbcontext);	
+			_userRepository = new UserRepository(_dbcontext);
+			_msjContactRepository = new MsjContactRepository(_dbcontext);
 		}
 
         //Se agregarán los distintos repos.
@@ -71,6 +73,18 @@ namespace BlogNET8.DataAccess.Data.Repository
             set
             {
                 _userRepository = value;
+            }
+        }
+
+        public IMsjContactRepository MsjContactRepository
+        {
+            get
+            {
+                return _msjContactRepository ??= new MsjContactRepository(_dbcontext);
+            }
+            set
+            {
+                _msjContactRepository = value;
             }
         }
 

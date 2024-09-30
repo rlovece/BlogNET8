@@ -1,10 +1,12 @@
 ﻿using BlogNET8.DataAccess.Data.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 namespace BlogNET8.Areas.Admin.Controllers
 {
-	[Area("Admin")]
+    [Authorize(Roles = "Admin")]
+    [Area("Admin")]
 	public class UsersController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

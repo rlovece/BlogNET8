@@ -38,8 +38,8 @@ function cargarDatatable() {
                                 <a onclick=Delete("/Admin/Articles/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer; width:140px;">
                                 <i class="far fa-trash-alt"></i> Borrar
                                 </a>
-                          </div>
-                         `;
+                            </div>
+                            `;
                     }, "width": "25%"
             }
         ],

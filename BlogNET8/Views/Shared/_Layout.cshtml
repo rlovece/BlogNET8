@@ -18,24 +18,31 @@
 
     @* <link rel="stylesheet" href="~/BlogNET8.styles.css" asp-append-version="true" /> *@
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
 
-        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-primary p-2" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">BlogNET8</a>
+                <a class="navbar-brand" href="/"> <img src="~/img/logo.png" style="height: 50px" alt="Alternate Text" /> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
                 <div class="collapse navbar-collapse" id="navbarColor01">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link active" href="/">
                                 Inicio
                                 <span class="visually-hidden">(current)</span>
                             </a>
                         </li>
-                        
+                        <li class="nav-item">
+                            <a class="nav-link active" asp-area="Client" asp-controller="ContactClient" asp-action="Index">
+                                Contacto
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+
                         @* Sólo visible para Admin *@
                         @if (User.IsInRole(CNT.Admin))
                         {
@@ -46,15 +53,37 @@
                                     <a class="dropdown-item" asp-area="admin" asp-controller="Articles" asp-action="Index">Artículos</a>
                                     <a class="dropdown-item" asp-area="admin" asp-controller="Sliders" asp-action="Index">Sliders</a>
                                     <a class="dropdown-item" asp-area="admin" asp-controller="Users" asp-action="Index">Usuarios</a>
+                                    <a class="dropdown-item" asp-area="admin" asp-controller="MsjContact" asp-action="Index">Mensajes</a>
                                 </div>
+                            </li>
+                        }
+
+                        @* Sólo visible para Autor *@
+                        @if (User.IsInRole(CNT.Autor))
+                        {
+                            <li class="nav-item">
+                                @* <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Administrador</a> *@
+                                
+                                    <a class="text-center btn btn-secondary" asp-area="admin" asp-controller="Articles" asp-action="Create">Nuevo Artículo</a>
+                               
                             </li>
                         }
                         
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-sm-2" type="search" placeholder="Search">
-                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    <form class="d-flex" asp-controller="Home" asp-action="ArticleSearch" method="get">
+                        <input class="form-control" type="search" name="stringSearch" placeholder="¿Palabras en el título?">
+                        <button class="btn btn-secondary" type="submit"> <i class="fas fa-search"></i> </button> 
+
+                        
+                        @* <input class="form-control text-dark" type="text"  placeholder="Texto a buscar">
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="submit">
+                                
+                            </button>
+                        </div> *@
                     </form>
+
+                    
 
                     <partial name="_LoginPartial" />
                 </div>
@@ -98,15 +127,17 @@
         }
 
     </header>
-    <div class="container">
+    <div class="container flex-grow-1">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - BlogNET8 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+
+    <!--Pie de página-->
+    <footer class="border-top footer text-muted bg-dark mt-auto">
+        <div class="container text-white text-center py-4">
+            &copy; 2024 - BlogNET8 - <a href="https://www.linkedin.com/in/ruth-lovece/" target="_blank" rel="noopener noreferrer" >Desarrollado por Ruth Lovece</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

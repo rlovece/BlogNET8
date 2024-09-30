@@ -13,12 +13,32 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\186ce3fd-ed7e-4755-bab9-ba539affcb58.webp",
+      "PackagePath": "staticwebassets\\img\\articles\\186ce3fd-ed7e-4755-bab9-ba539affcb58.webp"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\1b02526e-778c-405c-b9cd-79931cfdbd3f.jpg",
+      "PackagePath": "staticwebassets\\img\\articles\\1b02526e-778c-405c-b9cd-79931cfdbd3f.jpg"
+    },
+    {
       "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\37379a9d-cef1-46ea-8c73-5b7f4534854b.webp",
       "PackagePath": "staticwebassets\\img\\articles\\37379a9d-cef1-46ea-8c73-5b7f4534854b.webp"
     },
     {
       "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\3d046e4d-3ba5-47bf-9f64-4172201f5bff.jpg",
       "PackagePath": "staticwebassets\\img\\articles\\3d046e4d-3ba5-47bf-9f64-4172201f5bff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\3d17ee1f-54b2-4b15-8c7b-d854a8346e21.webp",
+      "PackagePath": "staticwebassets\\img\\articles\\3d17ee1f-54b2-4b15-8c7b-d854a8346e21.webp"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\408935af-cce8-4a4c-b5e4-7ee58844aecf.jpg",
+      "PackagePath": "staticwebassets\\img\\articles\\408935af-cce8-4a4c-b5e4-7ee58844aecf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\6037f8c3-88dd-4c20-8a74-db96376ba329.jpg",
+      "PackagePath": "staticwebassets\\img\\articles\\6037f8c3-88dd-4c20-8a74-db96376ba329.jpg"
     },
     {
       "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\6fbcb3b6-b3a6-48fc-896d-be6ed8b0b3ac.webp",
@@ -33,12 +53,28 @@
       "PackagePath": "staticwebassets\\img\\articles\\a366470e-ba7b-4507-b40c-f2e2dae4001c.jpg"
     },
     {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\c0e712e9-242a-4f31-9873-8a606d549f43.webp",
+      "PackagePath": "staticwebassets\\img\\articles\\c0e712e9-242a-4f31-9873-8a606d549f43.webp"
+    },
+    {
       "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\efd5e1c8-607e-464d-bf02-efdfa4562388.jpg",
       "PackagePath": "staticwebassets\\img\\articles\\efd5e1c8-607e-464d-bf02-efdfa4562388.jpg"
     },
     {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\f823b71e-331c-40f2-9c27-bca6419aa67f.webp",
+      "PackagePath": "staticwebassets\\img\\articles\\f823b71e-331c-40f2-9c27-bca6419aa67f.webp"
+    },
+    {
       "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\articles\\fd3260d4-d382-4004-9698-e1b8b1d92979.webp",
       "PackagePath": "staticwebassets\\img\\articles\\fd3260d4-d382-4004-9698-e1b8b1d92979.webp"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\icons8-charla-64.png",
+      "PackagePath": "staticwebassets\\img\\icons8-charla-64.png"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
       "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\img\\sliders\\79590a24-5809-4582-adeb-b819a83edb15.webp",
@@ -63,6 +99,10 @@
     {
       "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\js\\categories.js",
       "PackagePath": "staticwebassets\\js\\categories.js"
+    },
+    {
+      "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\js\\message.js",
+      "PackagePath": "staticwebassets\\js\\message.js"
     },
     {
       "Id": "C:\\Users\\ruthl\\source\\repos\\BlogNET8\\BlogNET8\\wwwroot\\js\\site.js",

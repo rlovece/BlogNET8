@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlogNET8.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87f13a19610d2e0e06adfb8de20b57595b2cdc61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+533b4d932e76e1f078f38bd4f9242566ba4a2fbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlogNET8.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlogNET8.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

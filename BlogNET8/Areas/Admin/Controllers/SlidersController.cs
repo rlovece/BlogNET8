@@ -1,11 +1,13 @@
 ﻿using BlogNET8.DataAccess.Data.Repository.IRepository;
 using BlogNET8.Models;
 using BlogNET8.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogNET8.Areas.Admin.Controllers
 {
-	[Area("Admin")]
+    [Authorize(Roles = "Admin")]
+    [Area("Admin")]
 	public class SlidersController : Controller
 	{
         private readonly IUnitOfWork _unitOfWork;

@@ -43,7 +43,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Areas\Client\Views\Home\ArticleSearch.cshtml" />
     <None Include="Views\Shared\_Carousel.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Areas\Client\Views\Home\ArticleSearch.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Areas\Client\Views\Home\ArticleSearch.cshtml" />
   </ItemGroup>
 
 </Project>

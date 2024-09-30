@@ -1,10 +1,12 @@
 ﻿using BlogNET8.DataAccess.Data.Repository.IRepository;
 using BlogNET8.Models;
 using BlogNET8.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogNET8.Areas.Admin.Controllers
 {
+	
 	[Area("Admin")]
 	public class ArticlesController : Controller
 	{
@@ -18,12 +20,14 @@ namespace BlogNET8.Areas.Admin.Controllers
 
 		}
 
+        [Authorize(Roles = "Admin, Autor")]
         public IActionResult Index()
 		{
 			return View();
 		}
 
         [HttpGet]
+        [Authorize(Roles = "Admin, Autor")]
         public IActionResult Create()
         {
             ArticleVM articleVM = new ArticleVM()
@@ -36,7 +40,8 @@ namespace BlogNET8.Areas.Admin.Controllers
 
 		[HttpPost]
         [ValidateAntiForgeryToken]
-		public IActionResult Create(ArticleVM newArticle)
+        [Authorize(Roles = "Admin, Autor")]
+        public IActionResult Create(ArticleVM newArticle)
 		{
 			if (ModelState.IsValid)
 			{
@@ -79,7 +84,8 @@ namespace BlogNET8.Areas.Admin.Controllers
 			return View(newArticle);
 		}
 
-		[HttpGet]
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
 		public IActionResult Edit(int? id)
 		{
 			ArticleVM articleVM = new ArticleVM()
@@ -98,7 +104,8 @@ namespace BlogNET8.Areas.Admin.Controllers
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public IActionResult Edit(ArticleVM newArticle)
+        [Authorize(Roles = "Admin")]
+        public IActionResult Edit(ArticleVM newArticle)
 		{
 			var articleBD = _unitOfWork.ArticleRepository.Get(newArticle.Article.Id);
 
@@ -162,6 +169,7 @@ namespace BlogNET8.Areas.Admin.Controllers
 
 		#region LLamadas
 		[HttpGet]
+        [Authorize(Roles = "Admin, Autor")]
         public IActionResult GetAll()
         {
             return Json(new { data = _unitOfWork.ArticleRepository.GetAll(includeProperties: "Category") });

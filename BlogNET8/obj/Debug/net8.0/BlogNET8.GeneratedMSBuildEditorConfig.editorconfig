@@ -50,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ruthl/source/repos/BlogNET8/BlogNET8/Areas/Admin/Views/MsjContact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTXNqQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ruthl/source/repos/BlogNET8/BlogNET8/Areas/Admin/Views/Sliders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -72,6 +76,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ruthl/source/repos/BlogNET8/BlogNET8/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ruthl/source/repos/BlogNET8/BlogNET8/Areas/Client/Views/ContactClient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXENvbnRhY3RDbGllbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ruthl/source/repos/BlogNET8/BlogNET8/Areas/Client/Views/ContactClient/Thank.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXENvbnRhY3RDbGllbnRcVGhhbmsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ruthl/source/repos/BlogNET8/BlogNET8/Areas/Client/Views/Home/ArticleSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEhvbWVcQXJ0aWNsZVNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ruthl/source/repos/BlogNET8/BlogNET8/Areas/Client/Views/Home/Detail.cshtml]

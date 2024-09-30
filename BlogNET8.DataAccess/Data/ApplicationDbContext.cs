@@ -18,7 +18,9 @@ namespace BlogNET8.Data
 		public DbSet<Slider> Slider { get; set; }
 		public DbSet<ApplicationUser> ApplicationUser { get; set; }
 
-		protected override void OnModelCreating(ModelBuilder modelBuilder)
+        public DbSet<MsjContact> MsjContact { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			base.OnModelCreating(modelBuilder);
 

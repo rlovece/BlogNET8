@@ -5,7 +5,7 @@
     ViewData["Title"] = "Registro";
 }
 
-<h1 class="text-center mt-1">@ViewData["Title"]</h1>
+<h1 class="text-center mt-3">@ViewData["Title"]</h1>
 
 <div class="row">
     <div class="col-md-6 offset-3">
@@ -55,15 +55,18 @@
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
 
-            @* Sección para elegir rol *@
-            <div class="form-group row mt-2 mb-2">
-                <div class="col-4 offset-2"><strong>Seleccionar Rol: </strong></div>
-               <div class="col-6">
-                    <input type="radio" name="radUserRol" value="@CNT.Admin" /> @CNT.Admin
-                    <input type="radio" name="radUserRol" value="@CNT.Autor" /> @CNT.Autor
-                    <input type="radio" name="radUserRol" value="@CNT.Subscriber" checked/> @CNT.Subscriber
-               </div>
-            </div>
+            @if (User.IsInRole(CNT.Admin))
+            {
+                @* Sección para elegir rol *@
+                <div class="form-group row mt-2 mb-2">
+                   <div class="col-4 offset-2"><strong>Seleccionar Rol: </strong></div>
+                   <div class="col-6">
+                        <input type="radio" name="radUserRol" value="@CNT.Admin" /> @CNT.Admin
+                        <input type="radio" name="radUserRol" value="@CNT.Autor" /> @CNT.Autor
+                        <input type="radio" name="radUserRol" value="@CNT.Subscriber" checked/> @CNT.Subscriber
+                   </div>
+                </div>
+            }
 
 
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary mt-4">Aceptar</button>

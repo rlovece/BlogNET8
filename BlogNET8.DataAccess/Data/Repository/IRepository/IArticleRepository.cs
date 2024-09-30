@@ -12,5 +12,7 @@ namespace BlogNET8.DataAccess.Data.Repository.IRepository
     {
         void update(Article article);
 
+        IQueryable<Article> AsQueryable();
+
     }
 }

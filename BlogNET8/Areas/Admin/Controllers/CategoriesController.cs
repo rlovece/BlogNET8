@@ -1,9 +1,13 @@
 ﻿using BlogNET8.DataAccess.Data.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc;
 using BlogNET8.Models;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace BlogNET8.Areas.Admin.Controllers
 {
+	
+	[Authorize(Roles ="Admin")]
     [Area("Admin")]
     public class CategoriesController : Controller
     {
@@ -14,6 +18,7 @@ namespace BlogNET8.Areas.Admin.Controllers
             _unitOfWork = unitOfWork;
         }
 
+		//[AllowAnonymous] Si quiero dejarlo como expección de authorize
         [HttpGet]
         public IActionResult Index()
         {
